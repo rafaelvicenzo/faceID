@@ -6,9 +6,9 @@ async function startVideo() {
     try {
         let stream = await navigator.mediaDevices.getUserMedia(constraints)
 
-        cam.srcObject = stream
-        cam.onloadedmetadata = () => {
-            cam.play()
+        video.srcObject = stream
+        video.onloadedmetadata = () => {
+            video.play()
         }
     } catch (error) {
         console.log(error)
