@@ -1,3 +1,3 @@
 # faceID
 
-faceID with javaScript and NodeJS
+faceID with javaScript | NodeJS | SQL
