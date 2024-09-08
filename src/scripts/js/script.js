@@ -44,6 +44,5 @@ video.addEventListener('play', () => {
     }, 100)
 })
 
-
-
 /*TROCAR O DETECTALLFACES POR SINGLE FACES*/
+
